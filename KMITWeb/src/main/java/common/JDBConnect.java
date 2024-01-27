@@ -16,6 +16,7 @@ public class JDBConnect {
 	public JDBConnect() {
 
 		try {
+			System.out.println("kimstar");
 			Class.forName("oracle.jdbc.OracleDriver");
 
 			String url = "jdbc:oracle:thin:@localhost:1521:xe";
